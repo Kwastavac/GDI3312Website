@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Enquiries</title>
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html"><img src="Images/logo.png" alt="logo"></a></li>
+        <li><a href="AboutUs.html">About</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Supporters.html">Supporters</a></li>
+        <li><a href="Enquiries.html">Enquiries</a></li>
+        <li style="float:right; background-color: orange"><a href="Donate.html">Donate</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <!--Title -->
+      <h1 class="enquiries_title"> Want to talk to us? </h1>
+
+      <!--Contact Form containing FirstName Surname State Country PhoneNumber and Subject-->
+      <div class="form">
+        <h2> Send us a message! </h2>
+        <form>
+          <div class="enquiries_namerow">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Ex. John">
+
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname" placeholder="Ex. Smith">
+          </div>
+
+          <label for="state">State</label>
+          <input type="text" id="state" name="sirstname" placeholder="Ex. Western Australia">
+
+          <label for="country">Country</label>
+          <input type="text" id="country" name="country" placeholder="Ex. Australia">
+
+          <label for="phonenumber">Phone Number</label>
+          <input type="text" id="phonenumber" name="phonenumber">
+
+          <label for="subject"> Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write a message..."></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+      <!--Google Maps Embed -->
+      <div class="map">
+        <h2> Or visit us here! </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3385.502583260256!2d115.8385862!3d-31.9472595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32c1e132162207%3A0x67d7d7773d5d877c!2sThe%20Behaviour%20Change%20Collaborative!5e0!3m2!1sen!2sau!4v1779890679694!5m2!1sen!2sau" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </main>
+
+    <footer>
+      <div class="inner_footer">
+        <div class="logo_description">
+          <img src="Images/logo.png" alt="logo">
+        </div>
+        <div class="footer_menu">
+          <h1> Features </h1>
+          <a href="Services.html">Services</a>
+          <a href="Donate.html">Donate</a>
+        </div>
+        <div class="footer_menu">
+          <h1> Learn More </h1>
+          <a href="AboutUs.html">About Us</a>
+          <a href="Supporters.html">Supporters</a>
+        </div>
+        <div class="footer_menu">
+          <h1> Support </h1>
+          <a href="Enquiries.html">Enquiries</a>
+        </div>
+        <div class="charity_tick">
+          <img src="Images/charitytick.png" alt="charitycertification">
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
