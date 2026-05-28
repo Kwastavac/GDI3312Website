@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav styling*/
+ul {
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 5px;
+    overflow: hidden;
+    background-color: lightgray;
+}
+/* Nav Interior styling*/
+ul li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Nav Logo styling*/
+ul li a img{
+    width: 200px;
+    height: 50px;
+}
+/* Nav Button styling*/
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Nav Button when hovered styling*/
+ul li a:hover {
+    background-color: orange;
+    transform: scale(1.2);
+}
+
+/* Footer styling*/
+footer {
+    width: 100vw;
+    display: block;
+    padding: 80px 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: orange;
+}
+
+/* Footer Content Container styling*/
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1700px;
+    height: 100%;
+}
+
+/* Footer Logo Container styling */
+.inner_footer .logo_description{
+    width: 30%;
+    float: left;
+    height: 100%;
+    display: block;
+    margin-right: 100px;
+}
+
+/* Footer Logo Image styling */
+.inner_footer .logo_description img{
+    width: 300px;
+    height: auto;
+}
+
+/* Footer Tick Container styling */
+.inner_footer .charity_tick{
+    float: left;
+}
+
+/* Footer Tick Image styling */
+.inner_footer .charity_tick img{
+    width: 30%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+
+/* Footer Menu Container styling */
+.inner_footer .footer_menu{
+    width: 10%;
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+/* Footer Menu Content styling - header */
+.inner_footer .footer_menu h1{
+    font-size: 22px;
+    color: black;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* Footer Menu Content styling - links */
+.inner_footer .footer_menu a{
+    font-size: 14px;
+    color: black;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+
+/* Home Page Hero Container styling */
+.calltoaction_container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url("calltoaction.png")
+}
+
+/* Home Page Hero styling - text */
+.calltoaction_container h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Home Page Hero styling - button */
+.calltoaction_container a{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    background-color: orange;
+}
+
+/* Home Page Content Flexbox styling */
+.flexboxhome_container {
+    width: 90%;
+    display: flex;
+    padding: 150px 0;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Home Page Flexbox containers  */
+.flexboxhome_container img{
+    width: 30%;
+    height: auto;
+}
+
+/* Text Flexbox Container Styling  */
+.flexboxhome_text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Individual Text Styling  */
+.flexboxhome_text p{
+    width: 70%;
+    font-size: 20px;
+}
+
+.flexboxhome_text h2{
+    font-size: 50px;
+}
+
+.flexboxhome_text a{
+    font-size: 20px;
+
+}
+
+/* Title Styling */
+.aboutus_title {
+    text-align: center;
+    font-size: 80px;
+}
+
+/* Grid Container Styling for 3 by 3 grid */
+.aboutus_container {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 100px;
+    gap: 80px;
+    margin: auto;
+}
+
+/* Grid Container Card Styling  */
+.profile_card {
+    gap: 20px;
+}
+
+/* Individual Text Styling  */
+.profile_card h2{
+    text-align: center;
+}
+
+.profile_card h3{
+    text-align: center;
+}
+
+.profile_card p{
+    text-align: center;
+}
+
+.profile_card img {
+    width: 100%;
+}
+
+/* Contact Form Container Styling */
+.form {
+    width: 50%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Title Styling  */
+.enquiries_title {
+    font-size: 50px;
+    text-align: center;
+}
+
+/* First and Surname Flexbox Styling  */
+.enquiries_namerow {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+/* Input Field Styling  */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0 16px;
+    box-sizing: border-box;
+}
+
+/* Submit Field Styling  */
+input[type=submit] {
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+    padding: 30px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+/* Google Maps Container Styling  */
+.map {
+    width: 50%;
+    margin: 60px auto;
+    display: flex;
+    gap: 10px;
+}
+
+/* Title Styling  */
+.supporters_title {
+    text-align: center;
+    font-size: 80px;
+}
+
+/* Organisation Grid Container for 4 by 2 Grid */
+.organisation_container {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 100px;
+    gap: 80px;
+    margin: auto;
+}
+
+/* Card Styling  */
+.organisation_card h2{
+    text-align: center;
+}
+
+/* Testimonial Grid Container for 2 by 4 Grid  */
+.testimonial_container {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 100px;
+    gap: 80px;
+    margin: auto;
+}
+
+/* Card Styling  */
+.testimonial_container h2 {
+    font-size: 55px;
+}
+
+.testimonial_card h3 {
+    font-size: 25px;
+}
+
+.testimonial_card p {
+    font-size: 18px;
+}
+
+/* Title Styling */
+.services_title {
+    text-align: center;
+    font-size: 80px;
+}
+
+/* Youtube Container Styling  */
+.youtube {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    margin: 50px 0;
+
+}
+
+/* Heading Styling  */
+.services_heading {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Flexbox Styling  */
+.services_container {
+    width: 70%;
+    display: flex;
+    padding: 100px 0;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Flexbox Image Styling  */
+.services_container img{
+    width: 30%;
+    height: auto;
+}
+
+/* Flexbox Text Column Styling */
+.services_text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Individual Text Styling  */
+.services_text p{
+    width: 70%;
+    font-size: 20px;
+}
+
+.services_text h2{
+    font-size: 50px;
+}
+
+.services_text a{
+    font-size: 20px;
+
+}
+
+/* Grid Container for 4 by 1 Grid  */
+.services_gridcontainer {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 100px;
+    gap: 80px;
+    margin: auto;
+}
